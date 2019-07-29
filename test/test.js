@@ -1,5 +1,5 @@
 let assert = require('assert');
-const { Customer, Item } = require('../app/q2');
+const { Customer, Item } = require('../app/q3');
 
 const book = new Item('Book', 3, true);
 const pen = new Item('Pen', 2, true);
