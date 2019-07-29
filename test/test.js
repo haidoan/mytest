@@ -12,7 +12,7 @@ const obj = { '0': { key1: 'value1', key2: 'value2' }, '1': { key1: 'value1', ke
 
 describe('Question1', function() {
   describe('#load', function() {
-    it('should load correctly object', function() {
+    it('should load correctly object from text', function() {
       const data = load(text);
       assert.equal(JSON.stringify(data), JSON.stringify(obj));
     });
@@ -26,7 +26,7 @@ describe('Question1', function() {
   });
 });
 
-describe('Question2', function() {
+describe('Question3', function() {
   describe('#Customer is Employee but affiliated,loyalty and bougth < 100$', function() {
     it('Customer should has 30% discount because he is employee ', function() {
       const MrA = new Customer('MrA', new Date('2018-12-17T03:00:00'), true);
